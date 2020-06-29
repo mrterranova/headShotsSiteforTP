@@ -54,7 +54,7 @@ function Cam (props) {
       <br />
       </div> 
       <div className="btnDiv">
-        <button onClick={()=>{handleTakePhoto()}}>click me</button>
+        <button onClick={ () =>{handleTakePhoto()}}>click me</button>
       </div>
       
       </div>
