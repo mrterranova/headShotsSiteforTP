@@ -10,9 +10,15 @@
     background-color: brown;
 }
 
+.cameraDiv {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
 
 video {
-    width: 80%;
+    width: 100%;
 
 }
 

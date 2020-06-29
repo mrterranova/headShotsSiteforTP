@@ -32,6 +32,7 @@ function Cam (props) {
       <div>
         <div className="cameraClass">
       <div className="overlay" style={{max:"200px"}}></div>
+      <div className="cameraDiv">
       <Camera 
         onTakePhoto = { (dataUri) => { handleTakePhoto(dataUri); } }
         onTakePhotoAnimationDone = { (dataUri) => { handleTakePhotoAnimationDone(dataUri); } }
@@ -49,6 +50,7 @@ function Cam (props) {
         onCameraStart = { (stream) => { handleCameraStart(stream); } }
         onCameraStop = { () => { handleCameraStop(); } }
       />
+      </div>
       <br />
       </div> 
       <div className="btnDiv">
