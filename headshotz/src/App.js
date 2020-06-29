@@ -1,5 +1,5 @@
 import React from 'react';
-import Cam from './componets/camera';
+import CameraComponent from './components/camera';
 import ImagePreview from './componets/ImagePreview';
 import NavBar from './componets/navBar'
 import Home from './componets/home';
@@ -12,10 +12,9 @@ function App() {
       <h1>Headshot Application</h1>
       <NavBar/>
       <Switch>
+          <Route path="/" exact component={CameraComponent} />
           <Route path="/" exact component={Home} />  
           <Route path="/home" exact component={Home} />  
-          <Route path="/camera" exact component={Cam} />
-          <Route path="/camera" exact component={ImagePreview} /> 
       </Switch>
     </Router>
 
