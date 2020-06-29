@@ -26,6 +26,7 @@ function Cam(props) {
 
   function handleCameraStop() {
     console.log('handleCameraStop');
+
   }
 
   return (
