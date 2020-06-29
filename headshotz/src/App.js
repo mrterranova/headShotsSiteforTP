@@ -1,6 +1,5 @@
 import React from 'react';
-import Cam from './componets/camera';
-import ImagePreview from './componets/ImagePreview';
+import CameraComponent from './components/camera';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
@@ -9,8 +8,7 @@ function App() {
     <Router>
       <h1>Headshot Application</h1>
       <Switch>
-          <Route path="/" exact component={Cam} />
-          <Route path="/" exact component={ImagePreview} /> 
+          <Route path="/" exact component={CameraComponent} />
       </Switch>
     </Router>
 
