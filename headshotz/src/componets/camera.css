@@ -1,12 +1,27 @@
-#cameraClass {
-    display: flex; 
+.cameraClass {
+    width: 100vw;
+    display: flex;
     justify-content: center;
-
+    background-color: black;
 }
+
+.overlay {
+    background-image: url('/public/img/placeholder.png');
+    background-color: brown;
+}
+
+.cameraDiv {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
 
 video {
-    max-width: 80%;
+    width: 100%;
+
 }
-button {
-    max-width: 100%;
+
+.btnDiv {
+    width:100%;
 }

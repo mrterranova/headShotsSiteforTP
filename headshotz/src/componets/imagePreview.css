@@ -15,7 +15,7 @@
   }
   
   /* fullscreen enable by props */
-  /* .demo-image-preview-fullscreen > img {
+  .demo-image-preview-fullscreen > img {
     width: 50vw;
     height:50vh;
-  } */
+  }
