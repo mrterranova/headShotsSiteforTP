@@ -3,14 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Cam from './componets/camera';
-import ImagePreview from './componets/ImagePreview';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Cam />
-    <ImagePreview />
   </React.StrictMode>,
   document.getElementById('root')
 );
