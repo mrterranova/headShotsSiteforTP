@@ -1,6 +1,6 @@
 import React from 'react';
 import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo';
-import cameraClass from './camera.css';
+import './camera.css';
 
  
 // import ImagePreview from './ImagePreview'; // source code : ./src/demo/AppWithImagePreview/ImagePreview
@@ -29,8 +29,8 @@ function Cam (props) {
     }
   
     return (
-        <div >
-      <Camera
+        <div id="cameraClass">
+      <Camera 
         onTakePhoto = { (dataUri) => { handleTakePhoto(dataUri); } }
         onTakePhotoAnimationDone = { (dataUri) => { handleTakePhotoAnimationDone(dataUri); } }
         onCameraError = { (error) => { handleCameraError(error); } }
@@ -47,7 +47,9 @@ function Cam (props) {
         onCameraStart = { (stream) => { handleCameraStart(stream); } }
         onCameraStop = { () => { handleCameraStop(); } }
       />
-      <button className='mid' onClick={handleTakePhoto()}>click me</button>
+      <div>
+        <button className='mid' onClick={handleTakePhoto()}>click me</button>
+      </div>
       </div>
     );
   }

@@ -1,4 +1,12 @@
 #cameraClass {
-    width: 50%; 
-    height: 50%;
+    display: flex; 
+    justify-content: center;
+
+}
+
+video {
+    max-width: 80%;
+}
+button {
+    max-width: 100%;
 }
