@@ -1,5 +1,8 @@
 import React from 'react';
 import CameraComponent from './components/camera';
+import ImagePreview from './componets/ImagePreview';
+import NavBar from './componets/navBar'
+import Home from './componets/home';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
@@ -7,8 +10,11 @@ function App() {
   return (
     <Router>
       <h1>Headshot Application</h1>
+      <NavBar/>
       <Switch>
           <Route path="/" exact component={CameraComponent} />
+          <Route path="/" exact component={Home} />  
+          <Route path="/home" exact component={Home} />  
       </Switch>
     </Router>
 
