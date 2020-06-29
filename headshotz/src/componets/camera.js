@@ -1,5 +1,6 @@
 import React from 'react';
 import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo';
+import cameraClass from './camera.css';
 
  
 // import ImagePreview from './ImagePreview'; // source code : ./src/demo/AppWithImagePreview/ImagePreview
@@ -28,7 +29,7 @@ function Cam (props) {
     }
   
     return (
-        <div>
+        <div >
       <Camera
         onTakePhoto = { (dataUri) => { handleTakePhoto(dataUri); } }
         onTakePhotoAnimationDone = { (dataUri) => { handleTakePhotoAnimationDone(dataUri); } }
