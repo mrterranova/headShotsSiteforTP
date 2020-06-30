@@ -1,8 +1,8 @@
 import React from 'react';
 import CameraComponent from './components/camera';
 // import ImagePreview from './components/ImagePreview';
-import NavBar from './componets/navBar'
-import Home from './componets/home';
+import NavBar from './components/navBar'
+import Home from './components/home';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
