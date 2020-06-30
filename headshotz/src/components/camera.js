@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React,{useState} from 'react';
 import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo';
 import 'react-html5-camera-photo/build/css/index.css';
 import ImagePreview from "./ImagePreview";
@@ -28,12 +28,21 @@ function CameraComponent (props) {
         console.log('handleCameraStop');
     }
 
+    function resetState(){
+        setDataUri(null);
+    }
+
     return (
         <div>
             {(dataUri)
-                ? <ImagePreview dataUri={dataUri}
+                ? 
+                <><ImagePreview dataUri={dataUri}
                                 isFullscreen={isFullscreen}
-                /> :
+                /> 
+                <button onClick={resetState}>Retake</button>
+                </>
+                :
+                
                 <Camera 
                         onTakePhoto={(dataUri) => {
                             handleTakePhoto(dataUri);
@@ -61,8 +70,11 @@ function CameraComponent (props) {
                         isFullscreen = {false}
                         sizeFactor = {1}
                 />
+                
             }
+            
         </div>
+        
     );
 }
 
