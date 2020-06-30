@@ -32,7 +32,9 @@ function Cam(props) {
   return (
     <div>
       <div className="cameraClass">
-        <div className="overlay" style={{ max: "200px" }}></div>
+        <div className="overlay">
+          <img src={process.env.PUBLIC_URL +'./img/placeholder.png'} />
+        </div>
         <div className="cameraDiv">
           <Camera
             onTakePhoto={(dataUri) => { handleTakePhoto(dataUri); }}

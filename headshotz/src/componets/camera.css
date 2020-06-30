@@ -17,10 +17,9 @@
     position: relative;
 }
 
-
 video {
     width: 100%;
-
+    border: 7px solid grey;
 }
 
 .btnDiv {
@@ -43,3 +42,4 @@ video {
     border: 3px;
     border-radius: 50%;
 }
+
