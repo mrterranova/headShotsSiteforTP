@@ -3,13 +3,22 @@ import React, {Component} from 'react';
 class ShowBtn extends Component{
 
     state = {
-       isActive:false
+       isActive:false,
+       btnTalk: "show"
     }
   
     handleShow = ()=>{
+        if (this.state.isActive === false){
         this.setState({
-            isActive: true
+            isActive: true,
+            btnTalk: "hide"
         })
+    } else {
+        this.setState({
+            isActive: false, 
+            btnTalk: "show"
+        })
+    }
     }
   
     handleHide = () =>{
@@ -21,12 +30,13 @@ class ShowBtn extends Component{
      render(){
          return(
              <div>
+                 <div className="btnDiv">
+                 <button id="hideBtn" onClick={this.handleShow}>{this.state.btnTalk}</button>
+                 </div>
              {this.state.isActive ?             
              <div className="overlay">
-                <img id="placeholder" src="/img/placeholder.png" />
+                <img id="placeholder" src="/img/placeholder.png" alt="placeholder"/>
             </div> : null }
-             <button id="hideBtn" onClick={this.handleHide}>Hide</button>
-             <button id="showBtn" onClick={this.handleShow}>Show</button>
              </div>
          )
      }

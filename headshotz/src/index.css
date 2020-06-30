@@ -24,7 +24,7 @@ code {
 
 video {
   width: 100%;
-  border: 5px solid grey;
+  border: 5px solid lightgray;
 }
 .cameraDiv {
   display: flex;
@@ -36,10 +36,19 @@ video {
   z-index: 1;
   display: flex;
   justify-content: center;
+  align-content: flex-end;
   
   /* background-color: green; */
   width: 800px;
-  height: 420px;
+  margin-top: 6.2%;
+  margin-left: 50px;
+  height: 330px;
+}
+
+.btnDiv {
+  text-align: center;
+  width: 100px;
+  z-index: 2;
 }
 
 #showBtn {
@@ -47,15 +56,9 @@ position: absolute;
 z-index: 2;
 }
 
-#hideBtn {
-  position: absolute;
-  z-index: 2;
-  margin-left: 50px;
-}
-
 #placeholder {
-  max-width: 35%;
-  margin-top: 10%;
+  max-width: 50%;
+  opacity: .7;
 }
 
 @media(max-width:768px){
