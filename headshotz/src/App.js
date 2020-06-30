@@ -1,21 +1,22 @@
 import React from 'react';
 import CameraComponent from './components/camera';
-// import ImagePreview from './components/ImagePreview';
+import NotFoundPage from './components/notFoundPage';
 import NavBar from './components/navBar'
 import Home from './components/home';
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { Redirect, Route, Switch, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <h1>Headshot Application</h1>
       <NavBar/>
       <Switch>
           <Route path="/camera" exact component={CameraComponent} />
           <Route path="/" exact component={Home} />  
+          <Route path="/*" component={NotFoundPage} />
       </Switch>
-    </Router>
+    </BrowserRouter>
 
 
   );
