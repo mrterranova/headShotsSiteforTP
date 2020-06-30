@@ -12,9 +12,8 @@ function App() {
       <h1>Headshot Application</h1>
       <NavBar/>
       <Switch>
-          <Route path="/" exact component={CameraComponent} />
+          <Route path="/camera" exact component={CameraComponent} />
           <Route path="/" exact component={Home} />  
-          <Route path="/home" exact component={Home} />  
       </Switch>
     </Router>
 
