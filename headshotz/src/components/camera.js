@@ -2,10 +2,12 @@ import React,{useState} from 'react';
 import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo';
 import 'react-html5-camera-photo/build/css/index.css';
 import ImagePreview from "./ImagePreview";
+import ShowBtn from './ShowBtn'
 
 function CameraComponent (props) {
     const [dataUri, setDataUri] = useState('');
     const isFullscreen = false;
+
 
     function handleTakePhoto(dataUri) {
         console.log('takePhoto');
@@ -34,6 +36,8 @@ function CameraComponent (props) {
 
     return (
         <div>
+            <div className="cameraDiv">
+            <ShowBtn />
             {(dataUri)
                 ? 
                 <><ImagePreview dataUri={dataUri}
@@ -70,9 +74,7 @@ function CameraComponent (props) {
                         isFullscreen = {false}
                         sizeFactor = {1}
                 />
-                
-            }
-            
+            }</div>
         </div>
         
     );

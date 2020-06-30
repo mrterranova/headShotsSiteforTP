@@ -22,10 +22,53 @@ code {
   width: 768px;
 }
 
+video {
+  width: 100%;
+  border: 5px solid grey;
+}
+.cameraDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  
+  /* background-color: green; */
+  width: 800px;
+  height: 420px;
+}
+
+#showBtn {
+position: absolute;
+z-index: 2;
+}
+
+#hideBtn {
+  position: absolute;
+  z-index: 2;
+  margin-left: 50px;
+}
+
+#placeholder {
+  max-width: 35%;
+  margin-top: 10%;
+}
+
 @media(max-width:768px){
   .demo-image-preview > img {
     width: 100%;
   }
+}
+
+@media(max-width:500px){
+  /* #placeholder {
+    max-width: 43%;
+    margin-top: 46%;
+  } */
 }
 
 /* fullscreen enable by props */

@@ -1,6 +1,6 @@
 import React from 'react';
 import CameraComponent from './components/camera';
-import ImagePreview from './componets/ImagePreview';
+// import ImagePreview from './components/ImagePreview';
 import NavBar from './componets/navBar'
 import Home from './componets/home';
 import './App.css';
