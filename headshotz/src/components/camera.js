@@ -37,7 +37,10 @@ function CameraComponent (props) {
     return (
         <div>
             <div className="cameraDiv">
-            <ShowBtn />
+            <div className="camera">
+                <div className="showBtn">
+                    <ShowBtn />
+                </div>
             {(dataUri)
                 ? 
                 <><ImagePreview dataUri={dataUri}
@@ -74,7 +77,7 @@ function CameraComponent (props) {
                         isFullscreen = {false}
                         sizeFactor = {1}
                 />
-            }</div>
+            }</div></div>
         </div>
         
     );
