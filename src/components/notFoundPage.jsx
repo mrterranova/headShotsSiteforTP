@@ -7,7 +7,6 @@ class NotFoundPage extends Component {
         <div className="homeDiv">
             <h1>WHOOPS!</h1>
             <p>We couldn't find the page you are looking for</p>
-            <button onClick={console.log("oops")}>Go Back Home</button>
         </div>
         )
     }

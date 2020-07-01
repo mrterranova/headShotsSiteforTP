@@ -5,10 +5,46 @@ class Home extends Component {
     render () {
     return (
         <div className="homeDiv">
-            I'm baby godard pug venmo, four loko snackwave forage umami irony poke leggings cardigan polaroid. Tilde blog iceland quinoa chia copper mug +1 helvetica offal meggings kickstarter yr. Kale chips la croix mlkshk hashtag. Vice pitchfork gochujang selfies succulents disrupt deep v lomo intelligentsia small batch. Everyday carry chambray man bun, jean shorts pinterest vinyl truffaut chia taxidermy tbh blue bottle edison bulb asymmetrical lo-fi vexillologist. Tumeric taiyaki occupy vape crucifix seitan.
-            <br/> 
             <br/>
-            Shoreditch quinoa seitan, ennui man bun hexagon 3 wolf moon drinking vinegar ethical. Umami fixie typewriter flexitarian, retro hammock messenger bag XOXO kitsch craft beer. Hexagon hoodie echo park retro. Thundercats schlitz mixtape etsy keffiyeh flannel.
+            Welcome to the Headshot App. Please take your photo using the below application. 
+            <br/>
+            You need: to be dressed professionally, a plain blue or white background, good lighting, and if possible help from a family member or a friend.
+
+            <ol> <h3 style={{margin: 0}}>Instructions:</h3>
+                <li>
+                    Before you start, make sure you are dressed professionally.
+                </li>
+                <li>
+                    Find a plain neutral color wall to use as a background.
+                </li>
+                <li>
+                    Make sure that you have good lighting. You want to be lit with a warm light coming from above at a slight angle. <br/>
+                    <a href="http://www.prexperts.com/_assets/images/Cactus%20News/Clamshell%20lighting%20650.png">Good lighting: an example.</a> 
+                    <h6 style={{margin: 0}}>You do not need a reflector but you do not want to be directly under a light or back lit either.</h6>
+                </li>
+                <li>
+                    Click show to display the frame where you will center yourself in. 
+                </li>
+                <li>
+                    Have the photo taker center your image in the frame.
+                </li>
+                <li>
+                    Turn your body slightly to the right and then look at the camera.
+                </li>
+                <li>
+                    Smile and say cheese!  😊 🧀
+                </li>
+                <li>
+                    Click on the circle to take the photo.
+                </li>
+                <li>
+                    If you like the photo, then save it to your device and send it to your ************
+                </li>
+                <li>
+                    If not click retake and follow steps 5 through 10 again.
+                </li>
+            </ol>
+
         </div>
         )
     }

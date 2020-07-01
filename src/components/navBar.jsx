@@ -8,7 +8,6 @@ class NavBar extends Component {
             <div className="fullNavUnit">
                 <div className="navWrapper">
                     <Link to="/" ><div className="linkBucket" >Home</div> </Link>
-                    <Link to="/camera"><div className="linkBucket" >Camera</div></Link>
                 </div>
             </div>
             )
