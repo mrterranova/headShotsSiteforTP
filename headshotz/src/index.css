@@ -31,6 +31,21 @@ video {
   justify-content: center;
 }
 
+.camera {
+  width:770px;
+  height:460px;
+  position: absolute;
+}
+
+.showBtn {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  height: 440px;
+  background-color: maroon;
+  opacity: .7;
+}
+
 .overlay {
   position: absolute;
   z-index: 1;
