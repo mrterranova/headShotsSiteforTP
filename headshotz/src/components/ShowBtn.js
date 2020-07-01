@@ -35,7 +35,7 @@ class ShowBtn extends Component{
                  </div>
              {this.state.isActive ?             
              <div className="overlay">
-                <img id="placeholder" src="/img/placeholder.png" alt="placeholder"/>
+                <img id="placeholder" src="/img/white_outline.png" alt="placeholder"/>
             </div> : null }
              </div>
          )
