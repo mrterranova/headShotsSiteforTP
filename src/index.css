@@ -53,10 +53,10 @@ video {
   justify-content: center;
   align-content: flex-end;
   
-  background-color: green;
+  /* background-color: green; */
   width: 770px;
   margin-top: 8%;
-  height: 370px;
+  height: 350px;
 }
 
 /* .btnDiv {
