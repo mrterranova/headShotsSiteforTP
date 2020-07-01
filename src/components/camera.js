@@ -38,6 +38,7 @@ function CameraComponent(props) {
         download(dataUri, "headshot.jpeg", "image/jpeg");
     };
 
+    //found on http://danml.com/download.html
     function download(data, strFileName, strMimeType) {
 
 		var self = window, // this script is only for browsers anyway...
@@ -178,10 +179,6 @@ function CameraComponent(props) {
                         />
                             <button onClick={resetState}>Retake</button>
                             <button onClick={savePhoto}>Save</button>
-
-                            {/* <a href="/images/headshot.jpg" download>
-                                {/* <img src={dataUri}/> */}
-                            {/* </a> */} */}
                         </>
                         :
                         <>
