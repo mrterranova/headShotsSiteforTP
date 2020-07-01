@@ -12,7 +12,7 @@ function App() {
       <h1>Headshot Application</h1>
       <NavBar/>
       <Switch> 
-          <Route path="/"  component={CameraComponent} />
+          <Route exact path="/"  component={CameraComponent} />
           <Route path="/*" component={NotFoundPage} />
       </Switch>
     </BrowserRouter>
