@@ -38,9 +38,6 @@ function CameraComponent (props) {
         <div>
             <div className="cameraDiv">
             <div className="camera">
-                <div className="showBtn">
-                    <ShowBtn />
-                </div>
             {(dataUri)
                 ? 
                 <><ImagePreview dataUri={dataUri}
@@ -49,7 +46,10 @@ function CameraComponent (props) {
                 <button onClick={resetState}>Retake</button>
                 </>
                 :
-                
+                <>
+                <div className="showBtn">
+                    <ShowBtn />
+                </div>
                 <Camera 
                         onTakePhoto={(dataUri) => {
                             handleTakePhoto(dataUri);
@@ -77,6 +77,7 @@ function CameraComponent (props) {
                         isFullscreen = {false}
                         sizeFactor = {1}
                 />
+                </>
             }</div></div>
         </div>
         
