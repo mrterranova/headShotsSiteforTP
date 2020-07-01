@@ -33,8 +33,9 @@ video {
 
 .camera {
   width:770px;
-  height:460px;
+  height:440px;
   position: absolute;
+  /* background-color: green; */
 }
 
 .showBtn {
@@ -52,7 +53,7 @@ video {
   justify-content: center;
   align-content: flex-end;
   
-  /* background-color: green; */
+  background-color: green;
   width: 770px;
   margin-top: 8%;
   height: 370px;
