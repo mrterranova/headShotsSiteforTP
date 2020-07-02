@@ -1,10 +1,10 @@
 #  **Talent Path Headshots**
 
-## ** Description: **
+## **Description:**
 A web/mobile application that instructs and allows the user to capture an image of themselves and save it to their device to be used as a professional headshot. Save images to edit them, email them, use them online, or attach them to a resume.
 
 
-## ** Deployed App: **
+## **Deployed App:**
 
 We have 2 deployments both sites are identical otherwise.
 
@@ -15,7 +15,7 @@ We have 2 deployments both sites are identical otherwise.
 [AWS](https://master.d3kjut4hb34h8m.amplifyapp.com/)
 
 
-## **Contributors: **
+## **Contributors:**
 - Bilikis Orulebaja
     - https://github.com/borulebaja
 - Brandt Campbell
@@ -36,7 +36,7 @@ We have 2 deployments both sites are identical otherwise.
     - https://github.com/Trevis42
 
 
-## **Languages/Technologies: **
+## **Languages/Technologies:**
 - JavaScript
 - NodeJS
 - ReactJS
@@ -51,7 +51,7 @@ We have 2 deployments both sites are identical otherwise.
 ![alt text](https://github.com/BrianLoveGa/headShotsSiteforTP/blob/master/public/img/cam1.PNG "Screen shot of example camera outline in headshotz app prototype")
 
 
-## **Checklist: **
+## **Checklist:**
 
 __MVP__
 - [x] app takes photo
