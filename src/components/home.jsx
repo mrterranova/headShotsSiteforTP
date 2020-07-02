@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class Home extends Component {
     render () {
     return (
-        <div className="homeDiv">
+        <div className="homeDiv container">
             I'm baby godard pug venmo, four loko snackwave forage umami irony poke leggings cardigan polaroid. Tilde blog iceland quinoa chia copper mug +1 helvetica offal meggings kickstarter yr. Kale chips la croix mlkshk hashtag. Vice pitchfork gochujang selfies succulents disrupt deep v lomo intelligentsia small batch. Everyday carry chambray man bun, jean shorts pinterest vinyl truffaut chia taxidermy tbh blue bottle edison bulb asymmetrical lo-fi vexillologist. Tumeric taiyaki occupy vape crucifix seitan.
             <br/> 
             <br/>

@@ -172,14 +172,17 @@ function CameraComponent(props) {
         <div>
             <div className="cameraDiv">
                 <div className="camera">
+					<img className="logo" src="/img/talentpath.png.png" />
                     {(dataUri)
                         ?
                         <><ImagePreview dataUri={dataUri}
                             isFullscreen={isFullscreen}
                         />
-                            <button onClick={resetState}>Retake</button>
-                            <button onClick={savePhoto}>Save</button>
-                        </>
+                            <div className="preview-btns">
+								<button className="preview-s-btns retake" onClick={resetState}>Retake Photo</button>
+                            	<button className="preview-s-btns save" onClick={savePhoto}>Save Photo</button>
+							</div>
+                        </> 
                         :
                         <>
                             <div className="showBtn">

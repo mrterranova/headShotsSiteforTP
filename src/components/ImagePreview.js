@@ -8,7 +8,7 @@ export const ImagePreview = ({ dataUri, isFullscreen }) => {
 
   return (
     <div className={'demo-image-preview ' + classNameFullscreen}>
-      <img src={dataUri} alt='user face' />
+      <img className="user_face" src={dataUri} alt='user face' />
     </div>
   );
 };
