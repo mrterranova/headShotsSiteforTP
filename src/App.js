@@ -19,8 +19,8 @@ function App() {
       <br />
       <br />
       <Switch>
-        <Route path="/camera" exact component={CameraComponent} />
-        <Route path="/" exact component={Home} />
+        <Route path="/" exact component={CameraComponent} />
+        <Route path="/instructions" exact component={Home} />
         <Route path="/*" component={NotFoundPage} />
       </Switch>
       <Footer />
