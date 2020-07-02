@@ -4,19 +4,19 @@ class ShowBtn extends Component{
 
     state = {
        isActive:false,
-       btnTalk: "show"
+       btnTalk: "Profile Outline"
     }
   
     handleShow = ()=>{
         if (this.state.isActive === false){
         this.setState({
             isActive: true,
-            btnTalk: "hide"
+            btnTalk: "Hide Outline"
         })
     } else {
         this.setState({
             isActive: false, 
-            btnTalk: "show"
+            btnTalk: "Profile Outline"
         })
     }
     }
