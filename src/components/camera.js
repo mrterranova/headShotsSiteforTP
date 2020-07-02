@@ -3,6 +3,7 @@ import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo';
 import 'react-html5-camera-photo/build/css/index.css';
 import ImagePreview from "./ImagePreview";
 import ShowBtn from './ShowBtn'
+import Instructions from './Instructions';
 
 function CameraComponent(props) {
 	const [dataUri, setDataUri] = useState('');
@@ -173,7 +174,7 @@ function CameraComponent(props) {
 		<div>
 			<div className="cameraDiv">
 				<div className="camera">
-					<img className="logo" src="/img/talentpath.png.png" />
+					{/* <img className="logo" src="/img/talentpath.png.png" /> */}
 					{(dataUri)
 						?
 						<><ImagePreview dataUri={dataUri}
@@ -217,9 +218,9 @@ function CameraComponent(props) {
 								sizeFactor={1}
 							/>
 						</>
-					}</div></div>
+					}</div>
+				</div>
 		</div>
-
 	);
 }
 
