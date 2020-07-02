@@ -26,6 +26,19 @@ h1 {
   color: white;
 }
 
+.homeDiv {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  width: 750px;
+  background-color: rgb(241, 241, 241);
+  margin: 0 auto;
+  padding: 20px 50px;
+  border-radius: 5px;
+  line-height: 28px;
+  box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
+}
+
 .heading {
   background-color: rgb(18,40,70);
 }
@@ -37,6 +50,10 @@ h1 {
   border-top: 50px solid transparent;
   border-left: 50px solid #f8992f;
   border-bottom: 50px solid transparent;
+}
+
+#instructions{
+  font-weight: bold;
 }
 
 .demo-image-preview {
