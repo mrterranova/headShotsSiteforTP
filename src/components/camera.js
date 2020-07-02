@@ -171,7 +171,6 @@ function CameraComponent(props) {
 
     return (
         <div>
-			<Home/>
             <div className="cameraDiv">
                 <div className="camera">
 					<img className="logo" src="/img/talentpath.png.png" />
