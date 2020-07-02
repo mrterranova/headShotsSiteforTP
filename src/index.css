@@ -27,7 +27,7 @@ h1 {
 }
 
 .heading {
-  background-color: #4d4e4e;
+  background-color:  #2e67b2;
 }
 
 .decor {
@@ -44,7 +44,7 @@ h1 {
   height: 0;
   position: absolute;
   border-top: 60px solid transparent;
-  border-left: 60px solid #2e67b2;
+  border-left: 60px solid #4d4e4e;;
   border-bottom: 60px solid transparent;
 }
 

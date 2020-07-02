@@ -11,7 +11,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="heading">
-        <div className="decor2">.</div>
         <div className="decor">.</div>
       <h1>Headshot Application</h1>
       <NavBar/>
