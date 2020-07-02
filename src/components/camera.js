@@ -10,24 +10,24 @@ function CameraComponent(props) {
 
 
 	function handleTakePhoto(dataUri) {
-		console.log('takePhoto');
+		//console.log('takePhoto');
 	}
 
 	function handleTakePhotoAnimationDone(dataUri) {
-		console.log(dataUri, 'takePhoto');
+		//console.log(dataUri, 'takePhoto');
 		setDataUri(dataUri);
 	}
 
 	function handleCameraError(error) {
-		console.log('handleCameraError', error);
+		//console.log('handleCameraError', error);
 	}
 
 	function handleCameraStart(stream) {
-		console.log('handleCameraStart');
+		//console.log('handleCameraStart');
 	}
 
 	function handleCameraStop() {
-		console.log('handleCameraStop');
+		//console.log('handleCameraStop');
 	}
 
 	function resetState() {
@@ -99,7 +99,7 @@ function CameraComponent(props) {
 		function dataUrlToBlob(strUrl) {
 			var parts = strUrl.split("[:;,]"),
 				type = parts[1],
-				decoder = parts[2] == "base64" ? atob : decodeURIComponent,
+				decoder = parts[2] === "base64" ? atob : decodeURIComponent,
 				binData = decoder(parts.pop()),
 				mx = binData.length,
 				i = 0,
@@ -173,7 +173,7 @@ function CameraComponent(props) {
 		<div>
 			<div className="cameraDiv">
 				<div className="camera">
-					<img className="logo" src="/img/talentpath.png.png" />
+					<img className="logo" src="/img/talentpath.png.png" alt="Talent Path logo"/>
 					{(dataUri)
 						?
 						<><ImagePreview dataUri={dataUri}
