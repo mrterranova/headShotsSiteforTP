@@ -34,7 +34,7 @@ class Home extends Component {
                         Turn your body slightly to the right and then look at the camera.
                 </li>
                     <li>
-                        Smile and say cheese!  😊 🧀
+                        Smile and say cheese!<span role="img" aria-label="smile">😊</span><span role="img" aria-label="cheese">🧀</span>
                 </li>
                     <li>
                         Click on the circle to take the photo.

@@ -7,7 +7,7 @@ import Instructions from './components/Instructions'
 
 
 import "./App.css";
-import { Redirect, Route, Switch, BrowserRouter } from "react-router-dom";
+import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer";
 function App() {
   return (
