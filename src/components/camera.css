@@ -1,4 +1,4 @@
-.cameraClass {
+/* .cameraClass {
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ video {
 }
 .btnDiv:hover{
     background-color: rgba(255, 255, 255, 0.808);
-}
+} */
 
 /* #outercircle {
     background-color: rgba(255, 255, 255, 0.801);
