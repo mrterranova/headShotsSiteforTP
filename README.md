@@ -67,6 +67,6 @@ __Additional features__
 
 - [x] mobile friendly css
 
-- [] background filter / removal
+- [ ] background filter / removal
 
-- [] outline color choices
+- [ ] outline color choices
