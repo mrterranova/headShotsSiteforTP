@@ -10,7 +10,7 @@ body {
 }
 
 * {
-  font-family: 'MuseoModerno', cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 code {
@@ -20,8 +20,8 @@ code {
 
 h1 {
   text-align: center;
-  font-family: 'Yellowtail', cursive;
-  letter-spacing: 5pt;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 3pt;
   font-size: larger;
   color: white;
 }
@@ -40,16 +40,25 @@ h1 {
 }
 
 .heading {
-  background-color: rgb(18,40,70);
+  background-color:  #2e67b2;
 }
 
 .decor {
   width: 0;
   height: 0;
+  margin-top: 9px;
   position: absolute;
   border-top: 50px solid transparent;
   border-left: 50px solid #f8992f;
   border-bottom: 50px solid transparent;
+}
+.decor2 {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-top: 60px solid transparent;
+  border-left: 60px solid #4d4e4e;;
+  border-bottom: 60px solid transparent;
 }
 
 #instructions{

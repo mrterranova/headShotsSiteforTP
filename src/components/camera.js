@@ -168,6 +168,7 @@ function CameraComponent(props) {
 		return true;
 	}; /* end download() */
 
+
 	return (
 		<div>
 			<div className="cameraDiv">

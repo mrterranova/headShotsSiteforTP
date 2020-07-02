@@ -5,9 +5,10 @@ import NavBar from './components/navBar'
 import Home from './components/home';
 
 
-import './App.css';
+
+import "./App.css";
 import { Redirect, Route, Switch, BrowserRouter } from "react-router-dom";
-import Footer from './components/Footer';
+import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
@@ -25,8 +26,6 @@ function App() {
       </Switch>
       <Footer />
     </BrowserRouter>
-
-
   );
 }
 export default App;
