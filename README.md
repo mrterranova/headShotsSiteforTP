@@ -54,14 +54,14 @@ We have 2 deployments both sites are identical otherwise.
 ## **Checklist: **
 
 __MVP__
--[x] app takes photo
--[x] user can see preview of picture taken and save it or re-take
--[x] user can turn on/off an outline overlay to aid with centering themselves in pcture
+*[x] app takes photo
+*[x] user can see preview of picture taken and save it or re-take
+*[x] user can turn on/off an outline overlay to aid with centering themselves in pcture
 
 
 __Additional features__
 
--[x] deployed and accessible
--[x] mobile friendly css
--[] background filter / removal
--[] outline color choices
+*[x] deployed and accessible
+*[x] mobile friendly css
+*[] background filter / removal
+*[] outline color choices
