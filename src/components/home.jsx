@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class Home extends Component {
     render () {
     return (
-        <div className="homeDiv">
+        <div className="homeDiv container">
             <br/>
             Welcome to the Headshot App. Please take your photo using the below application. 
             <br/>

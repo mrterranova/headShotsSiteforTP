@@ -1,8 +1,9 @@
-import React from "react";
-import CameraComponent from "./components/camera";
-import NotFoundPage from "./components/notFoundPage";
-import NavBar from "./components/navBar";
-import Home from "./components/home";
+import React from 'react';
+import CameraComponent from './components/camera';
+import NotFoundPage from './components/notFoundPage';
+import NavBar from './components/navBar'
+import Home from './components/home'
+
 
 import "./App.css";
 import { Redirect, Route, Switch, BrowserRouter } from "react-router-dom";
