@@ -1,6 +1,6 @@
 #  **Talent Path Headshots**
 
-## ** Descrption: **
+## ** Description: **
 A web/mobile application that instructs and allows the user to capture an image of themselves and save it to their device to be used as a professional headshot. Save images to edit them, email them, use them online, or attach them to a resume.
 
 
