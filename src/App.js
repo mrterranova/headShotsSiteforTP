@@ -11,10 +11,12 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Footer from "./components/Footer";
 function App() {
   return (
+    
     <BrowserRouter>
       <div className="heading">
         <div className="decor">.</div>
         <h1>Headshot Application</h1>
+        <NavBar></NavBar>
       </div>
       <br />
       <br />

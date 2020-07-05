@@ -4,15 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 class NavBar extends Component {
     render () {
-
         return (
             <Nav fill variant="tabs" defaultActiveKey="/home">
             <Nav.Item className="nav-item">
               <Nav.Link className="nav" href="/">Home</Nav.Link>
             </Nav.Item>
-            <Nav.Item className="nav-item">
+            {/* <Nav.Item className="nav-item">
               <Nav.Link className="nav" href="/camera">Camera</Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
           </Nav>
             )
         }
