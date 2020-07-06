@@ -173,7 +173,6 @@ function CameraComponent(props) {
 		<div>
 			<div className="cameraDiv">
 				<div className="camera">
-					<img className="logo" src="/img/talentpath.png.png" />
 					{(dataUri)
 						?
 						<><ImagePreview dataUri={dataUri}

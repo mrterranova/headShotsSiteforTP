@@ -11,6 +11,14 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <BrowserRouter>
+      <div id="backsplash-wrapper">
+        <div id="backsplash">
+          <div>
+            <img id="logo" src="/img/talentpath.png.png" />
+            <h1 id="headshot-title">HEADSHOTS</h1>
+          </div>
+        </div>
+      </div>
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/*" component={NotFoundPage} />
