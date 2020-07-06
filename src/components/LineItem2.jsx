@@ -6,7 +6,11 @@ export default class LineItem2 extends Component {
       <div className="lineItem">
         2. Find a plain neutral color wall to use as a background.
         <br></br>
-        <img src="backgroundCheck.png" alt='example of good background and bad background' ></img>
+        <img
+          className="responsive"
+          src="backgroundCheck.png"
+          alt="example of good background and bad background"
+        ></img>
       </div>
     );
   }
