@@ -5,6 +5,8 @@ export default class LineItem4 extends Component {
     return (
       <div className="lineItem">
         4. Click show to display the frame where you will center yourself in.
+        <br></br>
+        <img src="img/cam1.png" alt="center yourself in the frame"></img>
       </div>
     );
   }
@@ -12,6 +14,3 @@ export default class LineItem4 extends Component {
 
 
 
-// why you don't see I changed the name so here push some comments
-
-// say what you want to here
