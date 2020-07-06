@@ -243,17 +243,17 @@ video {
   #backsplash-wrapper {
     width: 94vw;
   }
-  /* .camera {
-    width: 90vw;
-  } */
+  .camera {
+    width: 100vw;
+  }
 }
 @media(max-width:700px){
   #container-circles {
     opacity: 0.5;
   }
   #backsplash-wrapper {
-    width: 99vw;
-    margin-left: 5vw;
+    width: 94vw;
+    /* margin-left: 5vw; */
   }
 }
 
@@ -262,7 +262,7 @@ video {
     opacity: 0.5;
   }
   #backsplash-wrapper {
-    width: 98vw;
+    width: 94vw;
   }
 }
 
@@ -313,9 +313,9 @@ video {
     z-index: 5;
     left: 25vw;
   }
-  .camera {
+  /* .camera {
     height: 200px;
-  }
+  } */
   .home-container {
     margin-top: 30px;
   }
