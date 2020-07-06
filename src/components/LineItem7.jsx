@@ -5,7 +5,7 @@ export default class LineItem8 extends Component {
     return (
       <div className="lineItem">
         <li value="7">
-        7. Smile and say cheese!😊🧀
+        Smile and say cheese!😊🧀
           <br/>
           <img
             style={{width:"300px"}}
