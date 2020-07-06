@@ -165,7 +165,7 @@ video {
   justify-content: center;
   font-weight: 600;
   position: absolute;
-  left: 17%;
+  /* left: 17%; */
 }
 
 #backsplash-wrapper { 
@@ -174,8 +174,8 @@ video {
   background-repeat: no-repeat;
   margin-top: 2vw;
   margin-bottom: 3vw;
-  margin-left: 3.2vw;
-  width: 94vw;
+  /* margin-left: 3.2vw; */
+  width: 100vw;
   height: 90vh;
   align-items: center;
   display: flex;
@@ -237,11 +237,11 @@ video {
   #backsplash {
     width: 75vw;
     overflow: hidden;
-    left: 12%;
+    /* left: 12%; */
     height:280px;
   }
   #backsplash-wrapper {
-    width: 94vw;
+    width: 100vw;
   }
   .camera {
     width: 100vw;
@@ -252,7 +252,7 @@ video {
     opacity: 0.5;
   }
   #backsplash-wrapper {
-    width: 94vw;
+    width: 100vw;
     /* margin-left: 5vw; */
   }
 }
@@ -262,7 +262,7 @@ video {
     opacity: 0.5;
   }
   #backsplash-wrapper {
-    width: 94vw;
+    width: 100vw;
   }
 }
 
