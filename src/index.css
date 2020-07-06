@@ -273,3 +273,11 @@ text-align: center;
   margin-top: 5px;
   padding: 5px;
 }
+
+
+
+/* PLEASE IGNORE THIS FOR NOW WHILE THE INSTRUCTION COMPONENETS TEAM WORKS ON THE INSTRUCTIONS THANK YOU JC 😊 */
+.lineItem{
+  border:blue dashed 2px;
+  margin: 5px;
+}
