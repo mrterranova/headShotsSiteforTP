@@ -9,9 +9,9 @@ class NavBar extends Component {
             <Nav.Item className="nav-item">
               <Nav.Link className="nav" href="/">Home</Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item className="nav-item">
-              <Nav.Link className="nav" href="/camera">Camera</Nav.Link>
-            </Nav.Item> */}
+            <Nav.Item className="nav-item">
+              <Nav.Link className="nav" href="/instructionsDev">instructionsDev</Nav.Link>
+            </Nav.Item>
           </Nav>
             )
         }

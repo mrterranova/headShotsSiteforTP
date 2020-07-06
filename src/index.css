@@ -205,12 +205,22 @@ width: 200px;
   .demo-image-preview > img {
     width: 100%;
   }
+  #container-circles {
+    opacity: .5;
+  }
 }
 
 @media(max-width:500px){
   .showBtn {
     width: 1vw;
     height: 1vh;
+  }
+  #container-circles {
+    opacity: .5;
+  }
+  #outer-circle {
+    opacity: 1;
+    margin-top: 30px ;
   }
   body {
     width: 100vw;
@@ -231,7 +241,16 @@ width: 200px;
     margin-top: 30px;
     height:170px;
   }
-  #container-circles {
+  .container-instr {
+    margin-top: 40px;
+    padding-top: 40px;
+    z-index: 5;
+    left:25vw;
+  }
+  .camera {
+    height:200px;
+  }
+  .home-container{
     margin-top: 30px;
   }
 }
@@ -256,4 +275,10 @@ text-align: center;
   display: flex;
   margin-top: 5px;
   padding: 5px;
+}
+
+/* PLEASE IGNORE THIS FOR NOW WHILE THE INSTRUCTION COMPONENETS TEAM WORKS ON THE INSTRUCTIONS THANK YOU JC 😊 */
+.lineItem{
+  border:blue dashed 2px;
+  margin: 5px;
 }
