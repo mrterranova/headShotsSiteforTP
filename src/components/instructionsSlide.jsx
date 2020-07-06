@@ -4,12 +4,12 @@ import LineItem1 from './LineItem1'
 import LineItem2 from './LineItem2'
 import LineItem3 from './LineItem3'
 import LineItem4 from './LineItem4_1'
-
-
-
+import LineItem6 from './LineItem6'
+import LineItem7 from './LineItem7'
 import LineItem8 from './LineItem8'
 import LineItem9 from './LineItem9'
 import LineItem10 from './LineItem10'
+import LineItem5 from './LineItem5'
 
 class InstructionsSlide extends Component {
 
@@ -20,9 +20,9 @@ class InstructionsSlide extends Component {
             <LineItem2/>,
             <LineItem3/>,
             <LineItem4/>,
-            "5. Have the photo taker center your image in the frame.",
-            "6. Turn your body slightly to the right and then look at the camera.",
-            `7. Smile and say cheese!😊🧀`,
+            <LineItem5/>,
+            <LineItem6/>,
+            <LineItem7/>,
             <LineItem8/>,
             <LineItem9/>,
             <LineItem10/>
