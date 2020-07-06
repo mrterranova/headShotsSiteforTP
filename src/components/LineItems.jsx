@@ -8,6 +8,11 @@ class LineItems extends Component {
         <div className="lineItems">
             <LineItem0/>
             <LineItem1/>
+
+
+
+
+            
         </div>
         )
     }
