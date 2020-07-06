@@ -30,9 +30,9 @@ class ShowBtn extends Component{
      render(){
          return(
              <div>
-                 <div className="btnDiv">
-                 <button id="hideBtn" onClick={this.handleShow}>{this.state.btnTalk}</button>
-                 </div>
+                <div className="btnDiv">
+                <button className="preview-s-btns hide" onClick={this.handleShow}>{this.state.btnTalk}</button>
+            </div>
              {this.state.isActive ?             
              <div className="overlay">
                 <img id="placeholder" src="/img/white_outline.png" alt="placeholder"/>
