@@ -16,7 +16,7 @@ We have 3 deployments both sites are identical otherwise.
 
 & 
 
-[GCP] (https://camera-app-4145.ue.r.appspot.com/)
+[GCP](https://camera-app-4145.ue.r.appspot.com/)
 
 
 ## **Contributors:**
@@ -72,5 +72,3 @@ __Additional features__
 - [x] mobile friendly css
 
 - [ ] background filter / removal
-
-- [ ] outline color choices

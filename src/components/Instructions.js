@@ -34,7 +34,7 @@ class Instructions extends Component {
               <div>
                   <div className="container-instr">
                     
-                  <button id="hideBtn" onClick={this.handleShow}>{this.state.btnTalk}</button>
+                  <button className="preview-s-btns info" onClick={this.handleShow}>{this.state.btnTalk}</button>
                   </div>
               {this.state.isActive ?      
               <div className="home-container">       
