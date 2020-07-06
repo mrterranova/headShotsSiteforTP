@@ -9,26 +9,27 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Raleway', 'Arial', sans-serif, -apple-system, BlinkMacSystemFont;
+  font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('/img/triangle-mosaic.png');
+  background: url("/img/triangle-mosaic.png");
 }
 
 * {
-  font-family: 'Raleway', 'Arial', sans-serif, -apple-system, BlinkMacSystemFont;
+  font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
 }
 
 code {
-  font-family: 'Raleway', 'Arial', sans-serif, -apple-system, BlinkMacSystemFont;
+  font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
 }
 
-h1 {
+#headshot-title {
   text-align: center;
-  font-family: 'Raleway', 'Arial', sans-serif, -apple-system, BlinkMacSystemFont;;
+  font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
   letter-spacing: 3pt;
   font-size: larger;
-  color: white;
+  color: #4d4e4e;
+  letter-spacing: 10px;
 }
 
 .homeDiv {
@@ -41,11 +42,11 @@ h1 {
   padding: 20px 50px;
   border-radius: 5px;
   line-height: 28px;
-  box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
 }
 
 .heading {
-  background-color:  #2e67b2;
+  background-color: #2e67b2;
 }
 
 .decor {
@@ -62,11 +63,11 @@ h1 {
   height: 0;
   position: absolute;
   border-top: 60px solid transparent;
-  border-left: 60px solid #4d4e4e;;
+  border-left: 60px solid #4d4e4e;
   border-bottom: 60px solid transparent;
 }
 
-#instructions{
+#instructions {
   font-weight: bold;
 }
 
@@ -91,10 +92,9 @@ video {
 }
 
 .camera {
-  width:770px;
-  height:440px;
+  width: 770px;
+  height: 440px;
   position: absolute;
-  /* background-color: green; */
 }
 
 .showBtn {
@@ -102,7 +102,6 @@ video {
   z-index: 4;
   width: 100%;
   height: 440px;
-
 }
 
 .nav {
@@ -112,7 +111,7 @@ video {
 }
 
 .nav-link:hover {
-  color:rgb(59, 6, 59);
+  color: rgb(59, 6, 59);
   background-color: whitesmoke;
 }
 
@@ -135,15 +134,15 @@ video {
 }
 
 #showBtn {
-position: absolute;
-z-index: 2;
-background-color: grey;
-width: 200px;
+  position: absolute;
+  z-index: 2;
+  background-color: grey;
+  width: 200px;
 }
 
 #placeholder {
   max-width: 50%;
-  opacity: .7;
+  opacity: 0.7;
 }
 #container-circles {
   position: absolute;
@@ -152,23 +151,48 @@ width: 200px;
   z-index: 5;
 }
 
-.logo {
+#logo {
+  width: 100%;
+  padding: 5% 20% 3% 20%;
+}
+
+#backsplash {
+  display: flex;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.87);
+  align-items: center;
+  width: 650px;
+  height: 400px;
+  justify-content: center;
+  font-weight: 600;
   position: absolute;
-  z-index: 1;
-  max-width: 200px;
-  bottom:10px;
-  right: 10px;
+  /* left: 17%; */
+}
+
+#backsplash-wrapper { 
+  background-image: url("/img/backsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+  /* margin-left: 3.2vw; */
+  width: 100vw;
+  height: 90vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .preview-btns {
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .preview-s-btns {
-  background-color:rgb(194, 191, 199);
-  color:black;
+  background-color: rgb(194, 191, 199);
+  color: black;
   border-radius: 20px;
   padding: 10px;
   width: 200px;
@@ -183,7 +207,7 @@ width: 200px;
 .retake, .save, .hide, .info, .change {
   box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
   border: none;
-  transition-duration: .1s;
+  transition-duration: 0.1s;
 }
 
 .retake:hover, .save:hover, .hide:hover, .change:hover {
@@ -202,32 +226,59 @@ width: 200px;
   margin-top: 10vh;
 }
 
-@media(max-width:768px){
+@media (max-width: 830px) {
   .demo-image-preview > img {
     width: 100%;
   }
+  #backsplash {
+    width: 75vw;
+    overflow: hidden;
+    /* left: 12%; */
+    height:280px;
+  }
+  #backsplash-wrapper {
+    width: 100vw;
+  }
+  .camera {
+    width: 100vw;
+  }
+}
+@media(max-width:700px){
   #container-circles {
-    opacity: .5;
+    opacity: 0.5;
+  }
+  #backsplash-wrapper {
+    width: 100vw;
+    /* margin-left: 5vw; */
   }
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
+  #container-circles {
+    opacity: 0.5;
+  }
+  #backsplash-wrapper {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 500px) {
   .showBtn {
     width: 1vw;
     height: 1vh;
   }
   #container-circles {
-    opacity: .5;
+    opacity: 0.5;
   }
   #outer-circle {
     opacity: 1;
-    margin-top: 30px ;
+    margin-top: 30px;
   }
   body {
     width: 100vw;
   }
-  .camera{
-    width: 100%;
+  .camera {
+    width: 100vw;
   }
   .btnDiv {
     width: 100vw;
@@ -235,26 +286,33 @@ width: 200px;
   .cameraDiv {
     margin-top: 50px;
   }
+  #backsplash {
+    width: 75vw;
+    overflow: hidden;
+    left: 12%;
+    height:280px;
+  }
+  #headshot-title{
+    letter-spacing: 8px;
+    font-size: large;
+  }
   .overlay {
-    width:100vw;
+    width: 100vw;
   }
   #placeholder {
     margin-top: 30px;
-    height:170px;
+    height: 170px;
   }
   .container-instr {
     margin-top: 40px;
     padding-top: 40px;
     z-index: 5;
-    left:25vw;
+    left: 25vw;
   }
-  .camera {
-    height:200px;
-  }
-  .cameraDiv {
-    height: 300px;
-  }
-  .home-container{
+  /* .camera {
+    height: 200px;
+  } */
+  .home-container {
     margin-top: 30px;
   }
 }
@@ -262,7 +320,7 @@ width: 200px;
 /* fullscreen enable by props */
 .demo-image-preview-fullscreen > img {
   width: 100vw;
-  height:100vh;
+  height: 100vh;
 }
 
 *,
@@ -271,19 +329,26 @@ width: 200px;
   box-sizing: inherit;
 }
 
-.mid{
-text-align: center;
+.mid {
+  text-align: center;
 }
 
-.buttonContainer{
+.buttonContainer {
   display: flex;
   margin-top: 5px;
   padding: 5px;
 }
 
+/* w3 schools method ... can be applied to any pics */
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 /* PLEASE IGNORE THIS FOR NOW WHILE THE INSTRUCTION COMPONENETS TEAM WORKS ON THE INSTRUCTIONS THANK YOU JC 😊 */
-.lineItem{
-  border:blue dashed 2px;
+.lineItem {
+  border: blue dashed 2px;
   margin: 5px;
 }
 
