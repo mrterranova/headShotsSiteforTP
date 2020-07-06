@@ -83,10 +83,11 @@ video {
   width: 100%;
   border: 5px solid lightgray;
 }
+
 .cameraDiv {
   display: flex;
   justify-content: center;
-  margin-bottom: 200px;
+  height: 540px;
 }
 
 .camera {
@@ -179,13 +180,13 @@ width: 200px;
   z-index: 8;
 }
 
-.retake, .save, .hide, .info {
+.retake, .save, .hide, .info, .change {
   box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
   border: none;
   transition-duration: .1s;
 }
 
-.retake:hover, .save:hover, .hide:hover {
+.retake:hover, .save:hover, .hide:hover, .change:hover {
   size:98%;
   background:rgb(226, 223, 231);
   box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
@@ -194,7 +195,7 @@ width: 200px;
 .container-instr {
   display: flex;
   justify-content: center;
-  margin: 450px 0 30px 0 ;
+  margin: 0 0 30px 0 ;
 }
 
 .home-container {
@@ -249,6 +250,9 @@ width: 200px;
   }
   .camera {
     height:200px;
+  }
+  .cameraDiv {
+    height: 300px;
   }
   .home-container{
     margin-top: 30px;

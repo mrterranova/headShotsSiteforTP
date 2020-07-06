@@ -31,15 +31,14 @@ class Instructions extends Component {
    
       render(){
           return(
-              <div>
+              <>
                   <div className="container-instr">
-                    
                   <button className="preview-s-btns info" onClick={this.handleShow}>{this.state.btnTalk}</button>
                   </div>
               {this.state.isActive ?      
               <div className="home-container">       
                  <Home /></div> : null }
-              </div>
+              </>
           )
       }
    }

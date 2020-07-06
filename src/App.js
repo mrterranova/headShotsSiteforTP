@@ -9,7 +9,7 @@ import LineItems from './components/LineItems'
 
 import "./App.css";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
-import Footer from "./components/Footer";
+
 function App() {
   return (
     
@@ -27,7 +27,6 @@ function App() {
         <Route path="/instructionsDev" exact component={LineItems} />
         <Route path="/*" component={NotFoundPage} />
       </Switch>
-      <Footer />
       <Instructions />
     </BrowserRouter>
   );
