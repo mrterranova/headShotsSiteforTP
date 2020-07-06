@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
-
+import LineItem0 from './LineItem0'
+import LineItem1 from './LineItem1'
 
 class InstructionsSlide extends Component {
 
     state = {
         InstructionLineItems: [        
+            <LineItem0/>,
+            <LineItem1/>,
         "2. Find a plain neutral color wall to use as a background.",
 
         `3. Make sure that you have good lighting. You want to be lit with a warm light coming from above at a slight angle. You do not need a reflector but you do not want to be directly under a light or back lit either.`,

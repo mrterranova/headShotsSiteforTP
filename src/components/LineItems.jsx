@@ -14,6 +14,11 @@ class LineItems extends Component {
             <LineItem2/>
             <LineItem3/>
             <LineItem4/>
+
+
+
+
+            
         </div>
         )
     }

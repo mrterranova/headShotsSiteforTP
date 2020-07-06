@@ -282,3 +282,10 @@ text-align: center;
   border:blue dashed 2px;
   margin: 5px;
 }
+
+h1.instHead1 {
+  color: black;
+}
+#buisnesspeople {
+  padding: 5px;
+}
