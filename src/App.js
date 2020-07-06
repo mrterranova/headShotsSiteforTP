@@ -1,6 +1,5 @@
 import React from 'react';
 import NotFoundPage from './components/notFoundPage';
-import NavBar from './components/navBar'
 import Home from './components/home';
 import Instructions from './components/Instructions'
 import LineItems from './components/LineItems'
@@ -17,7 +16,7 @@ function App() {
       <div id="backsplash-wrapper">
         <div id="backsplash">
           <div>
-            <img id="logo" src="/img/talentpath.png" />
+            <img id="logo" src="/img/talentpath.png" alt="Talent Path Logo"/>
             <h1 id="headshot-title">HEADSHOTS</h1>
           </div>
         </div>

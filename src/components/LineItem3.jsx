@@ -18,6 +18,7 @@ export default class LineItem3 extends Component {
           <a
             href="https://biteable.com/blog/best-video-lighting-kits/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Image borrowed from Biteable.com
           </a>
