@@ -6,13 +6,17 @@ A web/mobile application that instructs and allows the user to capture an image 
 
 ## **Deployed App:**
 
-We have 2 deployments both sites are identical otherwise.
+We have 3 deployments both sites are identical otherwise.
 
 [Heroku](https://tp-camera-app.herokuapp.com/)
 
 &
 
 [AWS](https://master.d3kjut4hb34h8m.amplifyapp.com/)
+
+& 
+
+[GCP] (https://camera-app-4145.ue.r.appspot.com/)
 
 
 ## **Contributors:**
