@@ -243,6 +243,9 @@ video {
   #backsplash-wrapper {
     width: 94vw;
   }
+  /* .camera {
+    width: 90vw;
+  } */
 }
 @media(max-width:700px){
   #container-circles {
@@ -279,7 +282,7 @@ video {
     width: 100vw;
   }
   .camera {
-    width: 100%;
+    width: 100vw;
   }
   .btnDiv {
     width: 100vw;
