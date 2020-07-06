@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Camera, { FACING_MODES, IMAGE_TYPES } from 'react-html5-camera-photo';
 import 'react-html5-camera-photo/build/css/index.css';
 import ImagePreview from "./ImagePreview";
-import ShowBtn from './ShowBtn'
+import ShowBtn from './ShowBtn';
+import { removeBackgroundFromImageBase64 } from "remove.bg";
 
 function CameraComponent(props) {
 	const [dataUri, setDataUri] = useState('');
@@ -37,6 +38,39 @@ function CameraComponent(props) {
 	function savePhoto() {
 		download(dataUri, "headshot.jpeg", "image/jpeg");
 	};
+
+	function changeBg() {
+		if (process.env.REACT_APP_API_KEY === undefined) {
+			throw new Error("No API key found");
+		  }
+
+		  async function removeBgFromBase64() {
+			try {
+		  
+			  //const outputFile = `${__dirname}/out/img-removed-from-base64.png`;
+			  //const base64img = fs.readFileSync(path, { encoding: "base64" });
+			  const base64img = dataUri;
+			  const result = await removeBackgroundFromImageBase64({
+				base64img,
+				apiKey: process.env.REACT_APP_API_KEY,
+				size: "auto",
+				type: "person",
+				bg_image_url: "https://i.pinimg.com/474x/fd/70/d9/fd70d956e6fd67f7c3af5e9cc3f201f1.jpg"	
+			  });
+		  
+			  //console.log(`File saved to ${outputFile}`);
+			  //console.log(`${result.creditsCharged} credit(s) charged for this image`);
+			 //console.log(`Result width x height: ${result.resultWidth} x ${result.resultHeight}, type: ${result.detectedType}`);
+			  console.log(result.base64img.substring(0, 40) + "..");
+			  setDataUri("data:image/jpeg;base64," + result.base64img);
+			} catch (e) {
+			  console.log("Error: " + JSON.stringify(e));
+			}
+			return null;
+		  }
+
+		  removeBgFromBase64();
+	}
 
 	//found on http://danml.com/download.html
 	function download(data, strFileName, strMimeType) {
@@ -170,7 +204,7 @@ function CameraComponent(props) {
 
 
 	return (
-		<div>
+		<>
 			<div className="cameraDiv">
 				<div className="camera">
 					{(dataUri)
@@ -181,6 +215,7 @@ function CameraComponent(props) {
 							<div className="preview-btns">
 								<button className="preview-s-btns retake" onClick={resetState}>Retake Photo</button>
 								<button className="preview-s-btns save" onClick={savePhoto}>Save Photo</button>
+								<button className="preview-s-btns change" onClick={changeBg}>Change Background</button>
 							</div>
 						</>
 						:
@@ -218,7 +253,7 @@ function CameraComponent(props) {
 						</>
 					}</div>
 				</div>
-		</div>
+		</>
 	);
 }
 
