@@ -23,12 +23,13 @@ code {
   font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
 }
 
-h1 {
+#headshot-title {
   text-align: center;
   font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
   letter-spacing: 3pt;
   font-size: larger;
-  color: white;
+  color: #4d4e4e;
+  letter-spacing: 10px;
 }
 
 .homeDiv {
@@ -93,7 +94,6 @@ video {
   width: 770px;
   height: 440px;
   position: absolute;
-  /* background-color: green; */
 }
 
 .showBtn {
@@ -150,12 +150,37 @@ video {
   z-index: 5;
 }
 
-.logo {
+#logo {
+  width: 100%;
+  padding: 5% 20% 3% 20%;
+}
+
+#backsplash {
+  display: flex;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.87);
+  align-items: center;
+  width: 650px;
+  height: 400px;
+  justify-content: center;
+  font-weight: 600;
   position: absolute;
-  z-index: 1;
-  max-width: 200px;
-  bottom: 10px;
-  right: 10px;
+  left: 17%;
+}
+
+#backsplash-wrapper { 
+  background-image: url("/img/backsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 2vw;
+  margin-bottom: 3vw;
+  margin-left: 3.2vw;
+  width: 94vw;
+  height: 90vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .preview-btns {
@@ -205,12 +230,36 @@ video {
   margin-top: 10vh;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .demo-image-preview > img {
     width: 100%;
   }
+  #backsplash {
+    width: 75vw;
+    overflow: hidden;
+    left: 12%;
+    height:280px;
+  }
+  #backsplash-wrapper {
+    width: 94vw;
+  }
+}
+@media(max-width:700px){
   #container-circles {
     opacity: 0.5;
+  }
+  #backsplash-wrapper {
+    width: 99vw;
+    margin-left: 5vw;
+  }
+}
+
+@media(max-width:600px){
+  #container-circles {
+    opacity: 0.5;
+  }
+  #backsplash-wrapper {
+    width: 98vw;
   }
 }
 
@@ -237,6 +286,16 @@ video {
   }
   .cameraDiv {
     margin-top: 50px;
+  }
+  #backsplash {
+    width: 75vw;
+    overflow: hidden;
+    left: 12%;
+    height:280px;
+  }
+  #headshot-title{
+    letter-spacing: 8px;
+    font-size: large;
   }
   .overlay {
     width: 100vw;
