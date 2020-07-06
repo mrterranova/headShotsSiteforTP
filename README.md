@@ -71,4 +71,4 @@ __Additional features__
 
 - [x] mobile friendly css
 
-- [ ] background filter / removal
+- [x] background filter / removal
