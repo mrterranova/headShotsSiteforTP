@@ -25,7 +25,6 @@ class LineItems extends Component {
             <LineItem5/>
             <LineItem6/>
             <LineItem7/>
-
             <LineItem8/>
             <LineItem9/>
             <LineItem10/>

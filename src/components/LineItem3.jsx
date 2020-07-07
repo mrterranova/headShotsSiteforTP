@@ -15,7 +15,12 @@ export default class LineItem3 extends Component {
             alt="example of how to set up lights from biteable.com"
           ></img>
           <br/>
-          <a
+          <a  
+            href="http://www.prexperts.com/_assets/images/Cactus%20News/Clamshell%20lighting%20650.png">
+            Good lighting: an example.<span></span>
+          </a> 
+          <br/>
+          <a 
             href="https://biteable.com/blog/best-video-lighting-kits/"
             target="_blank"
             rel="noopener noreferrer"

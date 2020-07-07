@@ -23,8 +23,8 @@ function App() {
       </div>
       <Switch>
         <Route path="/" exact component={CameraComponent} />
-        <Route path="/instructions" exact component={Home} />
-        <Route path="/instructionsDev" exact component={LineItems} />
+        {/* <Route path="/instructions" exact component={Home} />
+        <Route path="/instructionsDev" exact component={LineItems} /> */}
         <Route path="/*" component={NotFoundPage} />
       </Switch>
       <Instructions />
