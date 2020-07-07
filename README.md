@@ -6,13 +6,13 @@ A web/mobile application that instructs and allows the user to capture an image 
 
 ## **Deployed App:**
 
-We have 3 deployments both sites are identical otherwise.
+We have 3 deployments. The Amazon Web Services link and the Google Cloud Platform links are up to date; however, the heroku link has not been updated as to compare the single page application version to the multi-page application version.
 
 [Heroku](https://tp-camera-app.herokuapp.com/)
 
 &
 
-[AWS](https://master.d3kjut4hb34h8m.amplifyapp.com/)
+[AWS](https://master.d2w5ezifeqwhms.amplifyapp.com/)
 
 & 
 
