@@ -4,18 +4,19 @@ export default class LineItem5 extends Component {
   render() {
     return (
       <div className="lineItem">
-        <ol>
-        <li value="5">
-        Have the photographer center your image in the frame.
+        
+        <p>
+          5. Click show outline button to display the frame to assist with
+          centering yourself in the photo. You can click again (Hide Outline) to
+          hide it. It will not appear in your final photo either way.
+        
           <br/>
           <img
-            style={{width:"300px"}}
             className="responsive"
-            src="/img/center.png"
-            alt="center self"
+            src="img/cam1.png"
+            alt="center yourself in the frame"
           ></img>
-        </li>
-        </ol>
+          </p>
       </div>
     );
   }

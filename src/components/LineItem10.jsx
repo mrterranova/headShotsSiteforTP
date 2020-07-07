@@ -4,11 +4,13 @@ export default class LineItem10 extends Component {
     render() {
       return (
         <div className="lineItem">
-          <ol>
-            <li value="10">
-                If not, click retake and follow steps 5 through 10 again.
-            </li>
-            </ol>
+          
+            <p>
+                10. If you like the photo, then save it to your device and send it to your manager.
+            <br/>
+            <img src="img/outlook.svg.png" alt="Microsoft Outlook logo" className="responsive" />
+            </p>
+            
         </div>
       );
     }

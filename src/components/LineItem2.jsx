@@ -1,20 +1,16 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
+
+
 
 export default class LineItem2 extends Component {
-  render() {
+    render () {
     return (
-      <div className="lineItem">
-        <ol>
-        <li value="2">
-          Find a plain neutral color wall to use as a background. <br/>
-          <img 
-            className="responsive"
-            src="backgroundCheck.png"
-            alt="example of good background and bad background"
-          ></img>
-        </li>
-        </ol>
-      </div>
-    );
-  }
+        <div className="lineItem">
+            <p>2. Before you start, make sure you are dressed professionally.
+            <br/>
+            <img src="img/businesspeople.png" alt="Icons of business people dressed professionally" className="responsive"></img> 
+            </p>
+        </div>
+        )
+    }
 }

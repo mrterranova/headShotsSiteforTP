@@ -2,17 +2,15 @@ import React, { Component } from 'react'
 
 
 
-class LineItem1 extends Component {
+export default class LineItem1 extends Component {
     render () {
     return (
         <div className="lineItem">
-            <ol><li value="1">Before you start, make sure you are dressed professionally. <br/>
-                <img src="businesspeople.png" alt="Icons of business people dressed professionally" id="businesspeople"></img>
-            </li>
-            </ol>
+            <p>1. For best results, get help from a family member or a friend if possible. 
+                <br />
+                <img src="img/reinhart-julian-m2L90L-rjIU-unsplash.jpg" alt="Someone using their phone" id="phone" className="responsive"/>
+            </p> 
         </div>
         )
     }
 }
-
-export default LineItem1

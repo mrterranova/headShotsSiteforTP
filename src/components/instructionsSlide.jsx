@@ -10,9 +10,10 @@ import LineItem7 from './LineItem7';
 import LineItem8 from './LineItem8';
 import LineItem9 from './LineItem9';
 import LineItem10 from './LineItem10';
+import LineItem11 from './LineItem11';
 
 
-class InstructionsSlide extends Component {
+export default class InstructionsSlide extends Component {
 
     state = {
         InstructionLineItems: [        
@@ -26,7 +27,8 @@ class InstructionsSlide extends Component {
             <LineItem7/>,
             <LineItem8/>,
             <LineItem9/>,
-            <LineItem10/>
+            <LineItem10/>,
+            <LineItem11/>
         ],
         XYZ: 0
     }
@@ -63,5 +65,3 @@ class InstructionsSlide extends Component {
         )
     }
 }
-
-export default InstructionsSlide
