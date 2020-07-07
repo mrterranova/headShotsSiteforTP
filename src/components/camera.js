@@ -204,8 +204,7 @@ function CameraComponent(props) {
 
 
 	return (
-		<>
-			<div className="cameraDiv">
+		<div className="cameraDiv">
 				<div className="camera">
 					{(dataUri)
 						?
@@ -252,8 +251,7 @@ function CameraComponent(props) {
 							/>
 						</>
 					}</div>
-				</div>
-		</>
+		</div>
 	);
 }
 

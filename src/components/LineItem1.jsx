@@ -6,9 +6,10 @@ class LineItem1 extends Component {
     render () {
     return (
         <div className="lineItem">
-            <li value="1">Before you start, make sure you are dressed professionally. <br/>
-                <img src="buisnesspeople.png" alt="BuisnessPeople.png" id="buisnesspeople"></img>
+            <ol><li value="1">Before you start, make sure you are dressed professionally. <br/>
+                <img src="businesspeople.png" alt="Icons of business people dressed professionally" id="businesspeople"></img>
             </li>
+            </ol>
         </div>
         )
     }

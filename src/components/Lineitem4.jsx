@@ -1,19 +1,23 @@
-// import React, { Component } from "react";
+import React, { Component } from "react";
 
-// export default class LineItem4 extends Component {
-//   render() {
-//     return (
-//       <div className="lineItem">
-//         4. Click show to display the frame where you will center yourself in.
-//       </div>
-//     );
-//   }
-// }
-
-
-
-// why you don't see I changed the name so here push some comments
-
-// say what you want to here
-
-/// not used due to naming issue - instead use the LineItem4_1.jsx
+export default class LineItem4 extends Component {
+  render() {
+    return (
+      <div className="lineItem">
+        <ol>
+        <li value="4">
+          Click show outline button to display the frame to assist with
+          centering yourself in the photo. You can click again (Hide Outline) to
+          hide it. It will not appear in your final photo either way.
+          <br/>
+          <img
+            className="responsive"
+            src="cam1.png"
+            alt="center yourself in the frame"
+          ></img>
+        </li>
+        </ol>
+      </div>
+    );
+  }
+}

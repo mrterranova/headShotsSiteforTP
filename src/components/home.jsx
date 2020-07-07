@@ -5,9 +5,8 @@ class Home extends Component {
     render() {
         return (
             <div className="homeDiv container">
-                <ol> <h3 style={{ margin: 0 }} id="instructions">Instructions:</h3>
-                    <InstructionsSlide />
-                </ol>
+                <h1 id="instructions">Instructions:</h1>
+                <InstructionsSlide />
             </div>
         )
     }

@@ -4,8 +4,9 @@ export default class LineItem5 extends Component {
   render() {
     return (
       <div className="lineItem">
+        <ol>
         <li value="5">
-        Have the photo taker center your image in the frame.
+        Have the photographer center your image in the frame.
           <br/>
           <img
             style={{width:"300px"}}
@@ -14,6 +15,7 @@ export default class LineItem5 extends Component {
             alt="center self"
           ></img>
         </li>
+        </ol>
       </div>
     );
   }
