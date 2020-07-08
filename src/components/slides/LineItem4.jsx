@@ -17,7 +17,7 @@ export default class LineItem4 extends Component {
           <img
             className="responsive"
             id="#lightInfo"
-            src="img/lightInfo.png"
+            src="img/lightInformation.png"
             alt="example of how to set up lights from biteable.com"
           ></img>
           <br/>
