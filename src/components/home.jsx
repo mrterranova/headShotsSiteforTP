@@ -1,16 +1,13 @@
 import React, { Component } from 'react'
-import InstructionsSlide from './instructionsSlide'
+import InstructionsSlide from './InstructionsSlide'
 
-class Home extends Component {
+export default class Home extends Component {
     render() {
         return (
             <div className="homeDiv container">
-                <ol> <h3 style={{ margin: 0 }} id="instructions">Instructions:</h3>
-                    <InstructionsSlide />
-                </ol>
+                <h1 id="instructions">Instructions:</h1>
+                <InstructionsSlide />
             </div>
         )
     }
 }
-
-export default Home

@@ -15,6 +15,14 @@ body {
   background: url("/img/triangle-mosaic.png");
 }
 
+p{
+  text-align: center;
+}
+
+.attribute{
+  font-size: 0.75em;
+}
+
 * {
   font-family: "Raleway", "Arial", sans-serif, -apple-system, BlinkMacSystemFont;
 }
@@ -32,11 +40,44 @@ code {
   letter-spacing: 10px;
 }
 
+#backgroundCheck, #cam1{
+  height: 300px;
+}
+
+#lightInfo{
+  height: 200px;
+}
+
+.video{
+  border: 5px solid #c5c7c7;
+}
+
+.user_face{
+  border: 5px solid #c5c7c7;
+}
+
+#icon{
+  width: 256px;
+}
+
+#phone{
+  width: 300px;
+}
+
+#goBtn, #bckBtn {
+  background-color: #c5c7c7;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 200px;
+  margin: 20px;
+  border: none;
+}
+
 .homeDiv {
   color: black;
   font-size: 15px;
   font-weight: bold;
-  width: 750px;
   background-color: rgb(241, 241, 241);
   margin: 0 auto;
   padding: 20px 50px;
@@ -45,30 +86,9 @@ code {
   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
 }
 
-.heading {
-  background-color: #2e67b2;
-}
-
-.decor {
-  width: 0;
-  height: 0;
-  margin-top: 9px;
-  position: absolute;
-  border-top: 50px solid transparent;
-  border-left: 50px solid #f8992f;
-  border-bottom: 50px solid transparent;
-}
-.decor2 {
-  width: 0;
-  height: 0;
-  position: absolute;
-  border-top: 60px solid transparent;
-  border-left: 60px solid #4d4e4e;
-  border-bottom: 60px solid transparent;
-}
-
 #instructions {
   font-weight: bold;
+  text-align: center;
 }
 
 .demo-image-preview {
@@ -88,31 +108,19 @@ video {
 .cameraDiv {
   display: flex;
   justify-content: center;
-  height: 540px;
+  margin-top: 10vh;
 }
 
-.camera {
+/* .camera {
   width: 770px;
   height: 440px;
-  position: absolute;
-}
+} */
 
 .showBtn {
-  position: absolute;
   z-index: 4;
   width: 100%;
-  height: 440px;
-}
-
-.nav {
-  color: whitesmoke;
-  font-weight: 300;
-  font-size: 14pt;
-}
-
-.nav-link:hover {
-  color: rgb(59, 6, 59);
-  background-color: whitesmoke;
+  position: relative;
+    top: 40px;
 }
 
 .overlay {
@@ -122,9 +130,6 @@ video {
   justify-content: center;
   align-content: flex-end;
   /* background-color: green; */
-  width: 770px;
-  margin-top: 8%;
-  height: 350px;
 }
 
 .btnDiv {
@@ -143,6 +148,8 @@ video {
 #placeholder {
   max-width: 50%;
   opacity: 0.7;
+  position: relative;
+    top: 60px;
 }
 #container-circles {
   position: absolute;
@@ -162,7 +169,7 @@ video {
   background-color: rgba(255, 255, 255, 0.87);
   align-items: center;
   width: 650px;
-  height: 400px;
+  height: 80vh;
   justify-content: center;
   font-weight: 600;
   position: absolute;
@@ -173,7 +180,7 @@ video {
   background-image: url("/img/backsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 2vw;
+  /* margin-top: 2vw; */
   margin-bottom: 3vw;
   /* margin-left: 3.2vw; */
   width: 100vw;
@@ -191,7 +198,7 @@ video {
 }
 
 .preview-s-btns {
-  background-color: rgb(194, 191, 199);
+  background-color: #c5c7c7;
   color: black;
   border-radius: 20px;
   padding: 10px;
@@ -219,11 +226,12 @@ video {
 .container-instr {
   display: flex;
   justify-content: center;
-  margin: 0 0 30px 0 ;
+  margin: 30px 0 30px 0 ;
 }
 
-.home-container {
-  margin-top: 10vh;
+.home-container{
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 830px) {
@@ -240,6 +248,10 @@ video {
     width: 100vw;
   }
   .camera {
+    width: 100vw;
+    height: auto;
+  }
+  .home-container {
     width: 100vw;
   }
 }
@@ -263,10 +275,6 @@ video {
 }
 
 @media (max-width: 500px) {
-  .showBtn {
-    width: 1vw;
-    height: 1vh;
-  }
   #container-circles {
     opacity: 0.5;
   }
@@ -283,9 +291,6 @@ video {
   .btnDiv {
     width: 100vw;
   }
-  .cameraDiv {
-    margin-top: 50px;
-  }
   #backsplash {
     width: 75vw;
     overflow: hidden;
@@ -300,20 +305,17 @@ video {
     width: 100vw;
   }
   #placeholder {
-    margin-top: 30px;
-    height: 170px;
+    position: static;
   }
   .container-instr {
-    margin-top: 40px;
-    padding-top: 40px;
     z-index: 5;
     left: 25vw;
   }
   /* .camera {
     height: 200px;
   } */
-  .home-container {
-    margin-top: 30px;
+  .preview-s-btns{
+    margin: 10px;
   }
 }
 
@@ -337,6 +339,7 @@ video {
   display: flex;
   margin-top: 5px;
   padding: 5px;
+  justify-content: center;
 }
 
 /* w3 schools method ... can be applied to any pics */
@@ -352,8 +355,8 @@ video {
   margin: 5px;
 } */
 
-h1.instHead1 {
-  color: black;
+.welcomeInst {
+  text-align: center;
 }
 #buisnesspeople {
   padding: 5px;

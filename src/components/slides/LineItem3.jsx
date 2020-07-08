@@ -1,17 +1,21 @@
 import React, { Component } from "react";
 
-export default class LineItem2 extends Component {
+export default class LineItem3 extends Component {
   render() {
     return (
       <div className="lineItem">
-        <li value="2">
-          Find a plain neutral color wall to use as a background. <br/>
+        
+        <p>
+          3. Find a plain neutral color wall to use as a background. 
+          <br/>
           <img 
             className="responsive"
-            src="backgroundCheck.png"
+            id="backgroundCheck"
+            src="img/backgroundCheck.png"
             alt="example of good background and bad background"
           ></img>
-        </li>
+        </p>
+        
       </div>
     );
   }

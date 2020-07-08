@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Home from './home';
+import Home from './Home';
 
 
-class Instructions extends Component {
+export default class Instructions extends Component {
 
     state = {
         isActive:false,
@@ -42,5 +42,3 @@ class Instructions extends Component {
           )
       }
    }
-
-export default Instructions

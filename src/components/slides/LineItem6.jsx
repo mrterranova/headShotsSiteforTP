@@ -4,16 +4,17 @@ export default class LineItem6 extends Component {
   render() {
     return (
       <div className="lineItem">
-        <li value="6">
-        Turn your body slightly to the right and look at the camera
+        <p>
+        6. Have the photographer center your image in the frame.
+       
           <br/>
           <img
             style={{width:"300px"}}
             className="responsive"
-            src="/img/tilt.png"
-            alt="tilt self"
+            src="/img/center.png"
+            alt="center self"
           ></img>
-        </li>
+         </p>
       </div>
     );
   }

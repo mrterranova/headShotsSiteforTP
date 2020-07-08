@@ -1,6 +1,6 @@
 import React, {Component} from 'react'; 
 
-class ShowBtn extends Component{
+export default class ShowBtn extends Component{
 
     state = {
        isActive:false,
@@ -41,5 +41,3 @@ class ShowBtn extends Component{
          )
      }
   }
-  
-  export default ShowBtn;
