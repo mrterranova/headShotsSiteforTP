@@ -13,6 +13,7 @@ export default class LineItem5 extends Component {
           <br/>
           <img
             className="responsive"
+            id="cam1"
             src="img/cam1.png"
             alt="center yourself in the frame"
           ></img>

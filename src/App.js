@@ -1,6 +1,6 @@
 import React from 'react';
-import NotFoundPage from './components/notFoundPage';
-import CameraComponent from './components/camera';
+import NotFoundPage from './components/NotFoundPage';
+import CameraComponent from './components/CameraComponent';
 import Instructions from './components/Instructions';
 
 import "./App.css";

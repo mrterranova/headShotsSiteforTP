@@ -10,6 +10,7 @@ export default class LineItem3 extends Component {
           <br/>
           <img 
             className="responsive"
+            id="backgroundCheck"
             src="img/backgroundCheck.png"
             alt="example of good background and bad background"
           ></img>

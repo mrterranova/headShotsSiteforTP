@@ -40,6 +40,14 @@ code {
   letter-spacing: 10px;
 }
 
+#backgroundCheck, #cam1{
+  height: 300px;
+}
+
+#lightInfo{
+  height: 200px;
+}
+
 .video{
   border: 5px solid #c5c7c7;
 }
