@@ -55,7 +55,7 @@ function CameraComponent(props) {
 				apiKey: process.env.REACT_APP_API_KEY,
 				size: "auto",
 				type: "person",
-				bg_image_url: "https://i.pinimg.com/474x/fd/70/d9/fd70d956e6fd67f7c3af5e9cc3f201f1.jpg"	
+				bg_image_url: window.location.href + "img/portrait-bg.png"
 			  });
 		  
 			  //console.log(`File saved to ${outputFile}`);
@@ -74,7 +74,7 @@ function CameraComponent(props) {
 
 	//found on http://danml.com/download.html
 	function download(data, strFileName, strMimeType) {
-
+		
 		var self = window, // this script is only for browsers anyway...
 			defaultMime = "application/octet-stream", // this default mime also triggers iframe downloads
 			mimeType = strMimeType || defaultMime,
