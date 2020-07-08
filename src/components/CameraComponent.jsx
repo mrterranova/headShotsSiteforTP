@@ -55,7 +55,7 @@ function CameraComponent(props) {
 				apiKey: process.env.REACT_APP_API_KEY,
 				size: "auto",
 				type: "person",
-				bg_image_url: window.location.href + "img/portrait-bg.png"
+				bg_image_url: window.location.href + "img/portrait-bg.jpg"
 			  });
 		  
 			  //console.log(`File saved to ${outputFile}`);
