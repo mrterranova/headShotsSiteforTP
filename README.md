@@ -52,7 +52,7 @@ We have 3 deployments. The Amazon Web Services link and the Google Cloud Platfor
 
 <!-- Picture below of example camera outline in app -->
 
-![alt text](https://github.com/BrianLoveGa/headShotsSiteforTP/blob/master/public/img/cam1.PNG "Screen shot of example camera outline in headshotz app prototype")
+![alt text](https://github.com/BrianLoveGa/headShotsSiteforTP/blob/master/public/img/appscreenshot.png "Screen shot of example camera outline in headshotz app prototype")
 
 
 ## **Checklist:**
